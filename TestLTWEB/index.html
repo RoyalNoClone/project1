@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Clan Royal - Cộng đồng game thủ gắn kết với nhiều sự kiện và hoạt động thú vị."
+    />
+    <title>Clan Royal</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #1d0324;
+        color: #f4f4f4;
+      }
+      header,
+      footer {
+        background: linear-gradient(135deg, #4b0082, #6a1b9a);
+        color: rgb(150, 192, 34);
+        padding: 5px;
+        text-align: center;
+        top: 0;
+        z-index: 1000;
+        background-size: cover;
+        text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black,
+          -1px 1px 0px black;
+      }
+
+      nav {
+        margin: 20px 0;
+      }
+      nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        transition: color 0.3s;
+        color: rgb(150, 192, 34);
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 5px;
+      }
+      nav a:hover {
+        color: #ffcc00;
+        background-color: #4b0082;
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+      main {
+        padding: 20px;
+        width: 900px;
+        margin: auto;
+        background: linear-gradient(
+            135deg,
+            rgba(36, 47, 141, 0.7),
+            rgba(52, 72, 116, 0.7)
+          ),
+          url("img/anhclan.jpg");
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        background-size: cover;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 2px solid #ffcc00;
+      }
+      .social-buttons {
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+      .social-button {
+        background-color: #4b0082;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s;
+        display: flex;
+        align-items: center;
+      }
+      .social-button i {
+        margin-right: 8px;
+      }
+      .social-button:hover {
+        background-color: #6a1b9a;
+      }
+      h2 {
+        color: #ffcc00;
+        border-bottom: 2px solid #ac8dc2;
+        padding-bottom: 5px;
+      }
+      h2:hover {
+        background-color: #5093d1;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin: 10px 0;
+        color: #333;
+        display: flex;
+        align-items: center;
+      }
+      li i {
+        margin-right: 20px;
+        color: rgb(34, 87, 233);
+        font-size: 20px;
+        background-color: white;
+        border-radius: 5px;
+      }
+      a {
+        color: yellow;
+        transition: color 0.3s;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #e4ab0d;
+        font-size: 20px;
+      }
+      li {
+        color: yellow;
+      }
+      h3 {
+        color: yellow;
+      }
+      #r1 {
+        color: #3bf8ef;
+      }
+      .fab {
+        color: blue;
+        background-color: white;
+        padding: 5px;
+        font-size: 20;
+        border-radius: 10px;
+      }
+      .fa-discord {
+        color: white;
+        background-color: blue;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      p {
+        color: #e4ab0d;
+      }
+      .TV {
+        display: flex;
+      }
+      .TV1,
+      .TV2 {
+        margin-left: 40px;
+        margin-right: 40px;
+        background: linear-gradient(
+          135deg,
+          rgba(36, 47, 141, 0.7),
+          rgba(52, 72, 116, 0.7)
+        );
+        width: 1000px;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      #ps {
+        color: red;
+      }
+      #vr {
+        color: #000;
+      }
+      #dp {
+        color: orange;
+      }
+      #ks {
+        color: aqua;
+      }
+      #nq {
+        margin-left: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Clan Royal</h1>
+      <nav>
+        <a href="#about">Giới thiệu</a>
+        <a href="#members">Thành viên</a>
+        <a href="#events">Sự kiện</a>
+        <a href="#rules">Nội quy</a>
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>Giới thiệu</h2>
+        <i>
+          <p id="r1">
+            Clan Royal là một cộng đồng RPG Truy Kích gắn kết các game thủ yêu
+            thích chơi game và chia sẻ kinh nghiệm. Chúng tôi tổ chức nhiều sự
+            kiện và hoạt động thú vị!
+          </p>
+        </i>
+      </section>
+
+      <section id="members">
+        <h2>Thành viên</h2>
+        <div class="TV">
+          <div class="TV1">
+            <ul>
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a
+                  id="ps"
+                  href="https://www.facebook.com/profile.php?id=100079002242984"
+                >
+                  Nguyễn Thịnh</a
+                >
+                (ĐT AntiVirus)
+              </li>
+              <hr />
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a
+                  id="ps"
+                  href="https://www.facebook.com/profile.php?id=100090256617735"
+                >
+                  Nguyễn Định</a
+                >
+                (ĐTDD)
+              </li>
+              <hr />
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a
+                  id="ps"
+                  href="https://www.facebook.com/profile.php?id=100014072772218"
+                >
+                  Đinh Quốc Khánh</a
+                >
+                (ĐTDD)
+              </li>
+              <hr />
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a id="ps" href="https://www.facebook.com/pewpie2kb">
+                  Nguyễn Minh Đức</a
+                >
+                (ĐTDD)
+              </li>
+            </ul>
+          </div>
+          <div class="TV2">
+            <ul>
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a id="dp" href="https://www.facebook.com/trailangcanh.9x"
+                  >Trần Sơn Phi</a
+                >
+                (ĐP)
+              </li>
+              <hr />
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a
+                  id="dp"
+                  href="https://www.facebook.com/profile.php?id=61552689000707"
+                >
+                  Bạch Minh Nguyên </a
+                >(ĐP)
+              </li>
+              <hr />
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a id="ks" href="https://www.facebook.com/lee.bin234">
+                  Thanh Bình</a
+                >
+                (Ký sinh)
+              </li>
+              <hr />
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a
+                  id="vr"
+                  href="https://www.facebook.com/profile.php?id=100050347006175"
+                  >Nguyễn Hoàng</a
+                >
+                (Virus clan)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="events">
+        <h2>Sự kiện</h2>
+        <b><h3>God hàng tuần:</h3></b>
+        <ol>
+          <li>- Thứ 6: 20-22h</li>
+          <li>- Thứ 7: 0-1h/20-22h</li>
+          <li>- Chủ nhật: 20-22h</li>
+        </ol>
+        <b><h3>Lửa trại:</h3></b>
+        <ol>
+          <li>- Thứ 6: 19-23h</li>
+          <li>- Thứ 7: 19-23h</li>
+          <li>- Chủ nhật: 19-23h</li>
+        </ol>
+      </section>
+      <section id="rules">
+        <h2>Nội quy</h2>
+        <ul>
+          <i>
+            <li id="nq">- Tôn trọng tất cả các thành viên trong clan.</li>
+            <li id="nq">- Không sử dụng ngôn ngữ tục tĩu.</li>
+            <li id="nq">- Tham gia đầy đủ các sự kiện của clan.</li>
+            <li id="nq">- Không quảng bá các liên kết không liên quan.</li>
+            <li id="nq">- Hạn chế gây war.</li>
+            <li id="nq">- Cấm chửi nhau trong box chat.</li>
+            <li
+              style="
+                font-size: 20px;
+                font-weight: bold;
+                font-style: normal;
+                color: #ffcc00;
+              "
+            >
+              Các hành vi trên xử lý theo mức độ nặng nhẹ
+            </li>
+          </i>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Liên hệ</h2>
+        <p>
+          <i class="fas fa-envelope"></i>
+          Email:
+          <a href="mailto:nguyenducthinh191222@gmail.com"
+            >nguyenducthinh191222@gmail.com</a
+          >
+        </p>
+        <p>
+          <i class="fas fa-phone"></i>
+          Tel: <strong>_____________</strong>
+        </p>
+      </section>
+
+      <div class="social-buttons">
+        <a href="https://m.me/j/AbZe3UFyQje3hweK/" class="social-button">
+          <i class="fab fa-facebook-messenger"></i>Box Messenger
+        </a>
+        <a
+          href="https://www.facebook.com/share/g/MJJsQRn2e25MTtJN/?mibextid=lOuIew"
+          class="social-button"
+        >
+          <i class="fab fa-facebook"></i>Group Facebook
+        </a>
+        <a href="https://discord.gg/jpZRbFS8Dp" class="social-button">
+          <i class="fab fa-discord"></i> Discord Clan
+        </a>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 Clan Royal. Tất cả các quyền được bảo lưu.</p>
+    </footer>
+  </body>
+</html>
