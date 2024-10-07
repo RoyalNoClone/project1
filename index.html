@@ -26,9 +26,13 @@
       }
       header,
       footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         background: linear-gradient(135deg, #4b0082, #6a1b9a);
         color: rgb(150, 192, 34);
-        padding: 5px;
+        padding: 10px;
         text-align: center;
         top: 0;
         z-index: 1000;
@@ -37,11 +41,14 @@
           -1px 1px 0px black;
       }
       nav {
-        margin: 20px 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 0;
       }
       nav a {
         color: white;
-        margin: 0 15px;
+        margin: 5px;
         text-decoration: none;
         transition: color 0.3s;
         color: rgb(150, 192, 34);
@@ -175,40 +182,25 @@
         border-radius: 15px;
         padding: 4px;
       }
-      header,
-      footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        text-align: center;
-        top: 0;
-        z-index: 1000;
-      }
-
-      nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 10px 0;
-      }
-
-      nav a {
-        margin: 5px;
-      }
-
       @media (max-width: 600px) {
-        nav a {
-          font-size: 16px;
+        main {
+          width: 100%;
+          padding: 10px;
         }
-
         header h1 {
           font-size: 24px;
         }
-
+        nav a {
+          font-size: 16px;
+          padding: 5px 10px;
+        }
         footer p {
           font-size: 14px;
+        }
+        .TV1,
+        .TV2 {
+          width: 100%;
+          margin: 10px 0;
         }
       }
     </style>
@@ -223,11 +215,8 @@
         <a href="#rules">Nội quy</a>
         <a href="#contact">Liên hệ</a>
         <a href="#news">Tin tức</a>
-        <!-- Thêm liên kết đến phần Tin tức -->
         <a href="#guides">Hướng dẫn</a>
-        <!-- Thêm liên kết đến phần Hướng dẫn -->
         <a href="#faq">FAQ</a>
-        <!-- Thêm liên kết đến phần FAQ -->
       </nav>
     </header>
     <main>
@@ -378,7 +367,6 @@
       </section>
 
       <section id="news">
-        <!-- Thêm phần Tin tức -->
         <h2>Tin tức</h2>
         <p>
           Chúng tôi sẽ cập nhật các tin tức mới nhất về clan và các sự kiện
@@ -387,7 +375,6 @@
       </section>
 
       <section id="guides">
-        <!-- Thêm phần Hướng dẫn -->
         <h2>Hướng dẫn</h2>
         <p>
           Hãy theo dõi các hướng dẫn chơi game và các mẹo hữu ích cho các thành
@@ -396,7 +383,6 @@
       </section>
 
       <section id="faq">
-        <!-- Thêm phần Câu hỏi thường gặp -->
         <h2>Câu hỏi thường gặp (FAQ)</h2>
         <ul>
           <li><strong>Câu hỏi 1:</strong> Làm thế nào để tham gia clan?</li>
