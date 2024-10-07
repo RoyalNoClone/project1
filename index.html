@@ -36,7 +36,6 @@
         text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black,
           -1px 1px 0px black;
       }
-
       nav {
         margin: 20px 0;
       }
@@ -55,6 +54,18 @@
         background-color: #4b0082;
         padding: 10px 20px;
         border-radius: 10px;
+      }
+      .search-bar {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .search-bar input {
+        padding: 10px;
+        font-size: 16px;
+        width: 80%;
+        max-width: 600px;
+        border: 2px solid #ffcc00;
+        border-radius: 5px;
       }
       main {
         padding: 20px;
@@ -113,7 +124,7 @@
       }
       li {
         margin: 10px 0;
-        color: #333;
+        color: yellow;
         display: flex;
         align-items: center;
       }
@@ -132,28 +143,6 @@
       a:hover {
         color: #e4ab0d;
         font-size: 20px;
-      }
-      li {
-        color: yellow;
-      }
-      h3 {
-        color: yellow;
-      }
-      #r1 {
-        color: #3bf8ef;
-      }
-      .fab {
-        color: blue;
-        background-color: white;
-        padding: 5px;
-        font-size: 20;
-        border-radius: 10px;
-      }
-      .fa-discord {
-        color: white;
-        background-color: blue;
-        padding: 5px;
-        border-radius: 10px;
       }
       p {
         color: #e4ab0d;
@@ -174,20 +163,17 @@
         border-radius: 10px;
         padding: 10px;
       }
-      #ps {
-        color: red;
+      .fab {
+        color: blue;
+        background-color: white;
+        padding: 4px;
+        border-radius: 5px;
       }
-      #vr {
-        color: #000;
-      }
-      #dp {
-        color: orange;
-      }
-      #ks {
-        color: aqua;
-      }
-      #nq {
-        margin-left: 40px;
+      .fa-discord {
+        color: white;
+        background: blue;
+        border-radius: 15px;
+        padding: 4px;
       }
     </style>
   </head>
@@ -200,18 +186,43 @@
         <a href="#events">Sự kiện</a>
         <a href="#rules">Nội quy</a>
         <a href="#contact">Liên hệ</a>
+        <a href="#news">Tin tức</a>
+        <!-- Thêm liên kết đến phần Tin tức -->
+        <a href="#guides">Hướng dẫn</a>
+        <!-- Thêm liên kết đến phần Hướng dẫn -->
+        <a href="#faq">FAQ</a>
+        <!-- Thêm liên kết đến phần FAQ -->
       </nav>
     </header>
     <main>
+      <div class="search-bar">
+        <input
+          type="text"
+          id="search"
+          placeholder="Tìm kiếm..."
+          aria-label="Tìm kiếm"
+        />
+      </div>
       <section id="about">
         <h2>Giới thiệu</h2>
-        <i>
-          <p id="r1">
-            Clan Royal là một cộng đồng RPG Truy Kích gắn kết các game thủ yêu
-            thích chơi game và chia sẻ kinh nghiệm. Chúng tôi tổ chức nhiều sự
-            kiện và hoạt động thú vị!
-          </p>
-        </i>
+        <p>
+          Clan Royal là một cộng đồng RPG Truy Kích gắn kết các game thủ yêu
+          thích chơi game và chia sẻ kinh nghiệm. Chúng tôi không chỉ là một
+          nhóm chơi game đơn thuần mà còn là một gia đình nơi mọi người có thể
+          tìm thấy sự hỗ trợ, hướng dẫn và niềm vui trong quá trình trải nghiệm
+          trò chơi.
+        </p>
+        <p>
+          Với mục tiêu tạo ra một môi trường thân thiện và tích cực, Clan Royal
+          thường xuyên tổ chức các sự kiện, giải đấu và hoạt động giao lưu thú
+          vị, giúp các thành viên không chỉ cải thiện kỹ năng chơi game mà còn
+          xây dựng được những mối quan hệ lâu dài. Chúng tôi khuyến khích sự
+          sáng tạo và tinh thần đồng đội trong mọi hoạt động của clan.
+        </p>
+        <p>
+          Hãy tham gia cùng chúng tôi để khám phá những điều thú vị và trở thành
+          một phần của cộng đồng game thủ đầy nhiệt huyết này!
+        </p>
       </section>
 
       <section id="members">
@@ -222,41 +233,30 @@
               <li>
                 <i class="fab fa-facebook"></i>
                 <a
-                  id="ps"
                   href="https://www.facebook.com/profile.php?id=100079002242984"
-                >
-                  Nguyễn Thịnh</a
+                  >Nguyễn Thịnh</a
                 >
                 (ĐT AntiVirus)
               </li>
-              <hr />
               <li>
                 <i class="fab fa-facebook"></i>
                 <a
-                  id="ps"
                   href="https://www.facebook.com/profile.php?id=100090256617735"
-                >
-                  Nguyễn Định</a
+                  >Nguyễn Định</a
                 >
                 (ĐTDD)
               </li>
-              <hr />
               <li>
                 <i class="fab fa-facebook"></i>
                 <a
-                  id="ps"
                   href="https://www.facebook.com/profile.php?id=100014072772218"
-                >
-                  Đinh Quốc Khánh</a
+                  >Đinh Quốc Khánh</a
                 >
                 (ĐTDD)
               </li>
-              <hr />
               <li>
                 <i class="fab fa-facebook"></i>
-                <a id="ps" href="https://www.facebook.com/pewpie2kb">
-                  Nguyễn Minh Đức</a
-                >
+                <a href="https://www.facebook.com/pewpie2kb">Nguyễn Minh Đức</a>
                 (ĐTDD)
               </li>
             </ul>
@@ -265,34 +265,26 @@
             <ul>
               <li>
                 <i class="fab fa-facebook"></i>
-                <a id="dp" href="https://www.facebook.com/trailangcanh.9x"
+                <a href="https://www.facebook.com/trailangcanh.9x"
                   >Trần Sơn Phi</a
                 >
                 (ĐP)
               </li>
-              <hr />
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a href="https://www.facebook.com/profile.php?id=61552689000707"
+                  >Bạch Minh Nguyên</a
+                >
+                (ĐP)
+              </li>
+              <li>
+                <i class="fab fa-facebook"></i>
+                <a href="https://www.facebook.com/lee.bin234">Thanh Bình</a> (Ký
+                sinh)
+              </li>
               <li>
                 <i class="fab fa-facebook"></i>
                 <a
-                  id="dp"
-                  href="https://www.facebook.com/profile.php?id=61552689000707"
-                >
-                  Bạch Minh Nguyên </a
-                >(ĐP)
-              </li>
-              <hr />
-              <li>
-                <i class="fab fa-facebook"></i>
-                <a id="ks" href="https://www.facebook.com/lee.bin234">
-                  Thanh Bình</a
-                >
-                (Ký sinh)
-              </li>
-              <hr />
-              <li>
-                <i class="fab fa-facebook"></i>
-                <a
-                  id="vr"
                   href="https://www.facebook.com/profile.php?id=100050347006175"
                   >Nguyễn Hoàng</a
                 >
@@ -305,40 +297,32 @@
 
       <section id="events">
         <h2>Sự kiện</h2>
-        <b><h3>God hàng tuần:</h3></b>
+        <h3>God hàng tuần:</h3>
         <ol>
           <li>- Thứ 6: 20-22h</li>
           <li>- Thứ 7: 0-1h/20-22h</li>
           <li>- Chủ nhật: 20-22h</li>
         </ol>
-        <b><h3>Lửa trại:</h3></b>
+        <h3>Lửa trại:</h3>
         <ol>
           <li>- Thứ 6: 19-23h</li>
           <li>- Thứ 7: 19-23h</li>
           <li>- Chủ nhật: 19-23h</li>
         </ol>
       </section>
+
       <section id="rules">
         <h2>Nội quy</h2>
         <ul>
-          <i>
-            <li id="nq">- Tôn trọng tất cả các thành viên trong clan.</li>
-            <li id="nq">- Không sử dụng ngôn ngữ tục tĩu.</li>
-            <li id="nq">- Tham gia đầy đủ các sự kiện của clan.</li>
-            <li id="nq">- Không quảng bá các liên kết không liên quan.</li>
-            <li id="nq">- Hạn chế gây war.</li>
-            <li id="nq">- Cấm chửi nhau trong box chat.</li>
-            <li
-              style="
-                font-size: 20px;
-                font-weight: bold;
-                font-style: normal;
-                color: #ffcc00;
-              "
-            >
-              Các hành vi trên xử lý theo mức độ nặng nhẹ
-            </li>
-          </i>
+          <li>- Tôn trọng tất cả các thành viên trong clan.</li>
+          <li>- Không sử dụng ngôn ngữ tục tĩu.</li>
+          <li>- Tham gia đầy đủ các sự kiện của clan.</li>
+          <li>- Không quảng bá các liên kết không liên quan.</li>
+          <li>- Hạn chế gây war.</li>
+          <li>- Cấm chửi nhau trong box chat.</li>
+          <li style="font-weight: bold">
+            Các hành vi trên xử lý theo mức độ nặng nhẹ
+          </li>
         </ul>
       </section>
 
@@ -357,15 +341,57 @@
         </p>
       </section>
 
+      <section id="news">
+        <!-- Thêm phần Tin tức -->
+        <h2>Tin tức</h2>
+        <p>
+          Chúng tôi sẽ cập nhật các tin tức mới nhất về clan và các sự kiện
+          trong thời gian tới.
+        </p>
+      </section>
+
+      <section id="guides">
+        <!-- Thêm phần Hướng dẫn -->
+        <h2>Hướng dẫn</h2>
+        <p>
+          Hãy theo dõi các hướng dẫn chơi game và các mẹo hữu ích cho các thành
+          viên.
+        </p>
+      </section>
+
+      <section id="faq">
+        <!-- Thêm phần Câu hỏi thường gặp -->
+        <h2>Câu hỏi thường gặp (FAQ)</h2>
+        <ul>
+          <li><strong>Câu hỏi 1:</strong> Làm thế nào để tham gia clan?</li>
+          <li>
+            <strong>Trả lời:</strong> Bạn có thể liên hệ với một trong các thành
+            viên để được mời tham gia.
+          </li>
+          <li><strong>Câu hỏi 2:</strong> Có cần phí tham gia không?</li>
+          <li>
+            <strong>Trả lời:</strong> Không, tham gia clan hoàn toàn miễn phí.
+          </li>
+          <li>
+            <strong>Câu hỏi 3:</strong> Tôi có thể rời clan bất kỳ lúc nào
+            không?
+          </li>
+          <li>
+            <strong>Trả lời:</strong> Có, bạn có thể rời clan bất kỳ lúc nào nếu
+            bạn muốn.
+          </li>
+        </ul>
+      </section>
+
       <div class="social-buttons">
         <a href="https://m.me/j/AbZe3UFyQje3hweK/" class="social-button">
-          <i class="fab fa-facebook-messenger"></i>Box Messenger
+          <i class="fab fa-facebook-messenger"></i> Box Messenger
         </a>
         <a
           href="https://www.facebook.com/share/g/MJJsQRn2e25MTtJN/?mibextid=lOuIew"
           class="social-button"
         >
-          <i class="fab fa-facebook"></i>Group Facebook
+          <i class="fab fa-facebook"></i> Group Facebook
         </a>
         <a href="https://discord.gg/jpZRbFS8Dp" class="social-button">
           <i class="fab fa-discord"></i> Discord Clan
@@ -375,5 +401,17 @@
     <footer>
       <p>&copy; 2024 Clan Royal. Tất cả các quyền được bảo lưu.</p>
     </footer>
+    <script>
+      // Tìm kiếm trong nội dung
+      document.getElementById("search").addEventListener("input", function () {
+        const query = this.value.toLowerCase();
+        const sections = document.querySelectorAll("section");
+
+        sections.forEach((section) => {
+          const text = section.innerText.toLowerCase();
+          section.style.display = text.includes(query) ? "" : "none";
+        });
+      });
+    </script>
   </body>
 </html>
